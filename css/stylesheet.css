@@ -1,0 +1,47 @@
+.centru{
+
+	padding-top: 109px;
+
+}
+
+
+
+
+
+
+
+
+#logo{
+background: transparent;
+display: inline;
+height: 92px;
+width: 272px;
+
+}
+
+#caut{
+	padding: 0px;
+	margin: 0px;
+	height: auto;
+	width: 50%;
+	background: transparent;
+	position: absolute;
+	z-index: 6;
+	left: 25%;
+	outline: medium none;
+	display: inline;
+	border: 1px blue solid;
+}
+
+.cautare{
+	display:inline;
+	margin: 30px;
+	font-family: arial;
+	border-radius: 1px;
+	height: 35px;
+	width:150px;
+}
+.cautare:hover{
+	border:1px solid grey;
+	font-weight: bold;
+}
