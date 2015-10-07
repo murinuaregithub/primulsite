@@ -21,7 +21,7 @@ width: 272px;
 
 #caut{
 	padding: 0px;
-	margin: 0px;
+	margin: 0 auto;
 	height: auto;
 	width: 50%;
 	height:30px;
@@ -34,15 +34,32 @@ width: 272px;
 	border: 1px blue solid;
 }
 
-.cautare{
-	display:inline;
-	margin: 35px;
+.buttons{
+	display:inline-block;
+	background-color: #f5f5f5;
 	font-family: arial;
-	border-radius: 1px;
-	height: 35px;
+	border: 1px, solid #dcdcdc;
+	border-radius: 2px;
+	height: 45px;
 	width:150px;
-}
-.cautare:hover{
-	border:1px solid grey;
+	margin: 100px;
+	font-size: 14px;
 	font-weight: bold;
+	text-align: center;
+	line-height: 27px;
+	padding: 0 8px;
+	cursor: default;
+}
+#srcst{
+	margin-right: -80px;
+}
+.buttons:hover{
+	border:1px solid #c6c6c6;
+	color: #333;
+	font-weight: bold;
+	background-color: #f8f8f8;
+}
+
+#magyar{
+	
 }
